@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste site</title>
+</head>
+<body>
+<h1>Site list</h1>
+<ul>
+    {% for site in sites %}
+    <a href="../site/{{ site.id }}/"><li>{{ site.nom }}</li></a>
+    {% endfor %}
+</ul>
+</body>
+</html>
