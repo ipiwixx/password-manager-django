@@ -1,2 +1,2 @@
 # password-manager-django
-TD Django
+TD Django Password
